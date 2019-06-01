@@ -1,0 +1,108 @@
+.date-time-picker-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.date-time-picker-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #e74c3c;
+    color: white;
+}
+
+.react-bootstrap-table {
+    flex: 1;
+}
+
+.react-bootstrap-table > table {
+    width: 100%;
+    height: 100%;
+}
+
+.react-bootstrap-table tr {
+    border-top-style: hidden !important;
+}
+
+.react-bootstrap-table tr {
+    border-bottom-style: hidden !important;
+}
+
+.react-bootstrap-table th {
+    text-align: center;
+}
+
+.react-bootstrap-table td {
+    text-align: center;
+}
+
+.react-bootstrap-table td:hover:not(:empty) {
+    background-color: #e74c3c;
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+.today {
+    background: #e74c3c;
+    color: white;
+}
+
+.date-time-picker-controls-bottom {
+    background-color: transparent;
+    color: #e74c3c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #555;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 3px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.date-time-picker-time-container {
+    flex: 1;
+    margin: 20px;
+    color: lightgrey;
+}
